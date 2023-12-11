@@ -1,0 +1,24 @@
+name: Sync Issues
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  sync-issue:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Create Issue in Private Repository
+        uses: peter-evans/create-issue-from-file@v2
+        with:
+          title: ${{ github.event.issue.title }}
+          body: ${{ github.event.issue.body }}
+          labels: ${{ join(github.event.issue.labels.*.name, ',') }}
+          assignees: ${{ join(github.event.issue.assignees.*.login, ',') }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.PRIVATE_REPO_TOKEN }}
