@@ -1,6 +1,6 @@
 # Introduction
 
-Ahoy, brave spacefarers! 🌌 Intrepid-Issues is the mission control center where you, yes YOU, can report bugs, suggest enhancements, and join us on our quest to make our codebase as intrepid as a warp-speeding starship. 🚀
+Ahoy, intrepid people! 🌌 Intrepid-Issues is the mission control center where you, yes YOU, can report bugs, suggest enhancements, and join us on our quest to make our codebase as intrepid as a warp-speeding starship. 🚀
 
 Our mission: to boldly go where no code has gone before!
 
