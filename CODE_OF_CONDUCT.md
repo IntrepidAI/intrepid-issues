@@ -36,7 +36,7 @@ This Code of Conduct applies within all project spaces and also applies when an 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the maintainers at hello@intrepid.ai. 
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the maintainers at support@intrepid.ai. 
 All complaints will be reviewed and investigated promptly and fairly.
 
 All maintainers are obligated to respect the privacy and security of the reporter of any incident.
